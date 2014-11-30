@@ -117,16 +117,16 @@
         function clearAll() {
 
             [].forEach.call(El.cells, function(cell) {
-                cell.dataset.symbol = '';
                 cell.innerHTML = '';
-                cell.style.backgroundColor = '';
-                cell.style.color = '';
+                cell.removeAttribute('style');
+                cell.removeAttribute('data-symbol');
             });
 
             El.scoreBoard.innerHTML = '';
 
             cross = true;
         }
+
 
 
         function getScore(cells) {
