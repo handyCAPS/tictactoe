@@ -1,0 +1,274 @@
+/*-------------------*\
+
+    RESET
+
+\*-------------------*/
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+body {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+[hidden], template {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+a {
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+a:active, a:hover {
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+b, strong {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+dfn {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+small {
+  font-size: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+sup {
+  top: -0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+sub {
+  bottom: -0.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+img {
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+svg:not(:root) {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+figure {
+  margin: 1em 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+pre {
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button {
+  overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button, select {
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input {
+  line-height: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+legend {
+  border: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+textarea {
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+optgroup {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/vendor\/_normalize\.scss}line{font-family:\000032}}
+td, th {
+  padding: 0; }
+
+/*-------------------*\
+
+    VARIABLES
+
+\*-------------------*/
+/********************
+
+    BASE COLORS
+
+********************/
+/*-------------------*\
+
+    RESET
+
+\*-------------------*/
+/*------------------------------------*\
+$CLEARFIX
+\*------------------------------------*/
+/**
+* Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+* Extend the clearfix class with Sass to avoid the `.cf` class appearing over
+* and over in your markup.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/boterkaaseieren\/_clearfix\.scss}line{font-family:\0000311}}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*-------------------*\
+
+    DABBLE
+
+\*-------------------*/
+/*-------------------*\
+
+    BODY
+
+\*-------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/boterkaaseieren\/_body\.scss}line{font-family:\000033}}
+html {
+  box-sizing: border-box;
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/boterkaaseieren\/_body\.scss}line{font-family:\000038}}
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/boterkaaseieren\/_body\.scss}line{font-family:\0000316}}
+#outerWrap {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto; }
+
+/*-------------------*\
+
+    BOARD
+
+\*-------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/boterkaaseieren\/_board\.scss}line{font-family:\000038}}
+.board--table {
+  border: 1px solid #111111;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/boterkaaseieren\/_board\.scss}line{font-family:\0000313}}
+.board--cell {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #111111;
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  font-size: 48px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: 0.3s;
+          transition: 0.3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/boterkaaseieren\/dev\/scss\/boterkaaseieren\/_board\.scss}line{font-family:\0000326}}
+.board--score {
+  width: 300px;
+  min-height: 32px;
+  background-color: #f0f0f0;
+  border: 1px solid #111111;
+  margin: 0 auto 24px;
+  padding: 4px 8px;
+  vertical-align: middle; }
