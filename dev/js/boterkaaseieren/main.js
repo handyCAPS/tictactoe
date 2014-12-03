@@ -75,6 +75,10 @@
             [2,4,6]
         ];
 
+
+        var CB = {};
+
+
         function setElements() {
 
             El.board = get('.board--table')[0];
@@ -91,7 +95,7 @@
 
         function setSymbol(cell) {
 
-            if (cell.innerHTML !== '') { return; }
+            if (cell.innerHTML !== '') { return false; }
 
             if (cross) {
 
@@ -111,6 +115,8 @@
 
             }
 
+            return true;
+
         }
 
 
@@ -124,7 +130,17 @@
 
             El.scoreBoard.innerHTML = '';
 
+        }
+
+
+        function reset() {
+
+            clearAll();
+
             cross = true;
+
+            CB.clickOn = Events.subscribe('/cell/click', setAndCheck);
+
         }
 
 
@@ -198,6 +214,8 @@
 
                 showTheWin();
 
+                if (CB.clickOn && CB.clickOn.remove !== undefined) { CB.clickOn.remove(); }
+
             }
 
         }
@@ -209,9 +227,7 @@
 
                 cell.addEventListener('click', function() {
 
-                    setSymbol(this);
-
-                    checkForWin();
+                    Events.publish('/cell/click', this);
 
                 });
 
@@ -219,9 +235,21 @@
 
         }
 
+
+        function setAndCheck(cell) {
+
+            if (setSymbol(cell)) {
+
+                checkForWin();
+
+            }
+
+        }
+
+
         function clearOn() {
 
-            El.clearButton.addEventListener('click', clearAll);
+            El.clearButton.addEventListener('click', reset);
 
         }
 
@@ -231,6 +259,8 @@
             setElements();
 
             clickOn();
+
+            CB.clickOn = Events.subscribe('/cell/click', setAndCheck);
 
             clearOn();
 
@@ -245,7 +275,6 @@
     }());
 
     Board.init();
-
 
 
 }());
